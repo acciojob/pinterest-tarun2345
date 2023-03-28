@@ -2,12 +2,15 @@
 img{
 	height:200px;
 	width:350px;
+	object-fit:cover;
 }
 .hero > div{
+	font-size:10px;
 	display:flex;
 	flex-flow:column wrap;
 	width:250px;
 	height:200px;
+	align-items:center;
 }
 .hero{
 	display:flex;
